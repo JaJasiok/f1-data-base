@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12D95DFE-963D-C70D-BA9F-967499AE4D9E" name="OSOBY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CFD6F75-C728-D440-884A-EBEE66782144" name="TORY">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:13 UTC</createdTime>
+<createdTime>2022-11-26 11:41:37 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IMIE" id="7CA5CDCD-5951-309A-2C71-DDD17929B7A9">
+<Attribute name="TOR" id="6CD875DF-9917-0582-0807-9EDF59DFD8E1">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:32 UTC</createdTime>
+<createdTime>2022-11-26 11:41:44 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -25,20 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NAZWISKO" id="748FDC82-9826-E0C2-E96D-42841DACE03B">
+<Attribute name="DLUGOSC" id="4148262C-16CA-A5F5-7314-C5CCE8C02644">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:36 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NARODOWSC" id="472B3D43-1FF2-A187-F9DB-C5CBCE4211E5">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:31:43 UTC</createdTime>
+<createdTime>2022-11-26 11:41:46 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,9 +36,20 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="URODZONY" id="0070810D-0F2C-1B74-4A7C-FEBB85C16E95">
+<Attribute name="OTWARTY" id="AEEDF24F-7FA7-E5E1-5942-7BFAFF26517C">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:32:00 UTC</createdTime>
+<createdTime>2022-11-26 11:41:50 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOKALIZACJA" id="E340F129-F189-02D2-E3F8-5032308335DB">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-26 11:41:55 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -60,16 +60,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC" name="KIEROWCY PK">
+<identifier id="F671746F-8D9A-DEF2-226C-12CE91618376" name="TORY PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:31 UTC</createdTime>
+<createdTime>2022-11-26 11:42:15 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</attributeRef>
+<attributeRef>6CD875DF-9917-0582-0807-9EDF59DFD8E1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

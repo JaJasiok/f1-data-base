@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12D95DFE-963D-C70D-BA9F-967499AE4D9E" name="OSOBY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72E941D6-895D-8B5C-B368-69CF396A5FB0" name="ZESPOLY">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:13 UTC</createdTime>
+<createdTime>2022-11-26 11:32:51 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IMIE" id="7CA5CDCD-5951-309A-2C71-DDD17929B7A9">
+<Attribute name="ZESPOL" id="C23AA93C-992F-761A-3749-D994DCFB3693">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:32 UTC</createdTime>
+<createdTime>2022-11-26 11:32:59 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NAZWISKO" id="748FDC82-9826-E0C2-E96D-42841DACE03B">
+<Attribute name="SZEF" id="82B2B60C-388A-E5BD-89E4-67387C927DC3">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:36 UTC</createdTime>
+<createdTime>2022-11-26 11:33:04 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -36,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NARODOWSC" id="472B3D43-1FF2-A187-F9DB-C5CBCE4211E5">
+<Attribute name="ZALOZONY" id="FAC3A5B2-C538-3806-20CC-4717C704564E">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:31:43 UTC</createdTime>
+<createdTime>2022-11-26 11:33:08 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,29 +47,42 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="URODZONY" id="0070810D-0F2C-1B74-4A7C-FEBB85C16E95">
+<Attribute name="IMIE" id="A39378EF-5BC9-38C3-2270-DF4715235A2A">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:32:00 UTC</createdTime>
+<createdTime>2022-11-27 19:19:27 UTC</createdTime>
+<generatorID>82E4D3C2-3784-14DA-2CA3-6CCA89FE0F77</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMIE1" id="A275D986-C819-7062-6BD1-A315C3BCC2B2">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-27 19:29:16 UTC</createdTime>
+<generatorID>E2F782A0-367B-7740-C917-BAD2C22CCE84</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC" name="KIEROWCY PK">
+<identifier id="2B3A23DC-7DAE-0A32-1F12-5B5B5BC30314" name="DRUZYNY PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:31 UTC</createdTime>
+<createdTime>2022-11-26 11:33:42 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</attributeRef>
+<attributeRef>C23AA93C-992F-761A-3749-D994DCFB3693</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

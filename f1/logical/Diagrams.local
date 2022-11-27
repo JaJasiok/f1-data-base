@@ -2,4 +2,5 @@
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="6DF63F3D-47B4-5005-F0B7-C6223AC8A5B2" name="Logical" visible="true"/>
    <object objectType="sub_view" objectID="F8DA5EEE-13AC-8DC1-10C2-5FC7B921D136" name="Logical - SubView_1" visible="false"/>
+   <object objectType="sub_view" objectID="4AE2A44A-05C7-EDED-0D12-337BB1940CA9" name="Logical - SubView_2" visible="false"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

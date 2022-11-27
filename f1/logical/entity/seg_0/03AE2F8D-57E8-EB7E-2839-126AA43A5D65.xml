@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12D95DFE-963D-C70D-BA9F-967499AE4D9E" name="OSOBY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03AE2F8D-57E8-EB7E-2839-126AA43A5D65" name="PRACOWNICY">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:13 UTC</createdTime>
+<createdTime>2022-11-27 17:12:24 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,19 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IMIE" id="7CA5CDCD-5951-309A-2C71-DDD17929B7A9">
+<Attribute name="ID_PRAC" id="9CF1F39C-AF9E-0F51-0714-6CC4C0482B99">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:32 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NAZWISKO" id="748FDC82-9826-E0C2-E96D-42841DACE03B">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:36 UTC</createdTime>
+<createdTime>2022-11-27 17:12:37 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -36,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NARODOWSC" id="472B3D43-1FF2-A187-F9DB-C5CBCE4211E5">
+<Attribute name="IMIE" id="A73DDDA2-9015-1CA9-A3CD-9894B9946A2B">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:31:43 UTC</createdTime>
+<createdTime>2022-11-27 17:12:49 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,9 +37,42 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="URODZONY" id="0070810D-0F2C-1B74-4A7C-FEBB85C16E95">
+<Attribute name="NAZWISKO" id="7BA2A040-7092-96A9-7615-D555A0650F28">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:32:00 UTC</createdTime>
+<createdTime>2022-11-27 17:12:51 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZESPOL" id="55194640-482A-375E-2A74-2418B2358C67">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-27 17:13:00 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ETAT" id="F0705ECD-6684-E816-D1E5-78DD6F578445">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-27 17:13:12 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLACA" id="CBD423A6-B81A-4609-718A-12078DC31431">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-27 17:13:19 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -59,18 +82,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC" name="KIEROWCY PK">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:31 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>
