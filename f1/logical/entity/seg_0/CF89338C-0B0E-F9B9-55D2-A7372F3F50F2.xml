@@ -69,15 +69,27 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IMIE" id="E91C04B5-C922-B7D0-AB98-756C60A00A7A">
+<Attribute name="PRODUCENT" id="CE3EF5BC-42CA-95F1-8256-15810D24BBF6">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 19:19:27 UTC</createdTime>
+<createdTime>2022-11-28 21:31:48 UTC</createdTime>
+<generatorID>21904E7D-FE8C-A9EB-2B16-7A9071E4C814</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>0E0C4565-865C-91B3-0408-50D80463274A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OSOBY" id="B0A82467-0317-27DF-65C0-ECA9BCC24D4E">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 22:07:42 UTC</createdTime>
 <generatorID>11BF5F97-42BB-7519-4DA2-A348112B7D12</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</referedAttribute>
+<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

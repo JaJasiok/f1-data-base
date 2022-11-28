@@ -9,6 +9,8 @@
 <sourcePk>F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC</sourcePk>
 <targetPk>2B3A23DC-7DAE-0A32-1F12-5B5B5BC30314</targetPk>
 <identifying>false</identifying>
+<nameOnSource>dowodza</nameOnSource>
+<nameOnTarget>sa dowodzone przez</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

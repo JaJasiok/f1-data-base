@@ -7,7 +7,9 @@
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <sourcePk>F671746F-8D9A-DEF2-226C-12CE91618376</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
+<nameOnSource>jest udostepniony na</nameOnSource>
+<nameOnTarget>odbywaja sie na</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

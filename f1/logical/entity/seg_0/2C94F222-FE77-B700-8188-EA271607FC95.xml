@@ -15,21 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="DATA" id="ADDA5AD7-88A8-BE3D-DF11-1DA5D6B4129F">
+<Attribute name="DATA_kWALIFIKACJI" id="7A7887C3-08B9-414B-79EC-306A94118544">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 20:10:00 UTC</createdTime>
-<generatorID>6101BFE9-0970-D156-BF5A-2897E295A2B0</generatorID>
+<createdTime>2022-11-28 21:27:24 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>1806E463-3650-62F1-DF78-3A659231BF3F</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Q1" id="AD45831B-B956-7E25-D893-C5214CBCEBCF">
+<Attribute name="GODZINA_ROZPOCZECIA_Q1" id="74D091B3-DAA9-6433-B658-21DA2AEE3795">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 20:10:11 UTC</createdTime>
+<createdTime>2022-11-28 21:27:31 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -38,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Q2" id="2CFD2074-86DF-AFBD-20CE-032AD4BCA2EB">
+<Attribute name="GODZINA_ROZPOCZECIA_Q2" id="8E158AF0-08ED-894D-E0B0-3113D32CE51B">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 20:10:12 UTC</createdTime>
+<createdTime>2022-11-28 21:28:03 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -49,16 +47,42 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Q3" id="A1CEDCAC-B4A3-553C-7D9A-A999F1547F40">
+<Attribute name="GODZINA_ROZPOCZECIA_Q3" id="2EA58F64-F556-10CD-770D-4CEA1BD877D8">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 20:10:13 UTC</createdTime>
+<createdTime>2022-11-28 21:28:03 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OSOBY" id="83A65FDC-EC67-A115-D91E-93D0569130CE">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 22:07:42 UTC</createdTime>
+<generatorID>6C467635-8BEE-88BE-8DD6-5C9B77075D3D</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E418BD32-9C89-A7AC-D7DC-C0C6A71784B3" name="KWALIFIKACJE PK">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 21:06:27 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A7887C3-08B9-414B-79EC-306A94118544</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

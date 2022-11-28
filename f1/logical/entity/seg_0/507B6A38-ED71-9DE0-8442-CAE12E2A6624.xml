@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="507B6A38-ED71-9DE0-8442-CAE12E2A6624" name="BUDZET">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="507B6A38-ED71-9DE0-8442-CAE12E2A6624" name="BUDZETY">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-27 17:47:24 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
@@ -49,6 +49,18 @@
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <referedAttribute>C23AA93C-992F-761A-3749-D994DCFB3693</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPONSOR" id="E112BB95-D24D-E6B0-AF36-16E2B7A2C34C">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 21:32:48 UTC</createdTime>
+<generatorID>06BA7339-CFC5-01BB-99E1-566633B032D7</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>7DBF72C4-2F10-ACA6-FB56-309896DFAF8C</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

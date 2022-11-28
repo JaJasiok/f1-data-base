@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC9530D0-515E-C792-3D4E-081957D7C4F9" name="WYNIKI">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A514966-6B52-70FC-4215-E70677B40A5A" name="POZYCJE_STARTOWE">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:28:27 UTC</createdTime>
+<createdTime>2022-11-28 22:02:19 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,41 +15,41 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="POZYCJA" id="EDF38685-3210-FDF8-7120-99A7F9E55950">
+<Attribute name="DATA_kWALIFIKACJI" id="F13A80B0-7DD7-F584-CB80-57E5920CE261">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:52:08 UTC</createdTime>
+<createdTime>2022-11-28 22:02:43 UTC</createdTime>
+<generatorID>90E65183-35F6-EE30-47AE-3DB7CBC81E25</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
+<referedAttribute>7A7887C3-08B9-414B-79EC-306A94118544</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_OSOBY" id="63FC056B-AD05-0A88-BD23-4A9B2009E34D">
+<Attribute name="DATA" id="48922588-EF87-5A64-FC39-E4A4411AF369">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:42 UTC</createdTime>
-<generatorID>30CE25C2-DF6D-22CB-3E5D-446ABD8FFD24</generatorID>
+<createdTime>2022-11-28 22:03:07 UTC</createdTime>
+<generatorID>DF330321-661B-1DB3-B0A8-4E10BC23A494</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
+<referedAttribute>1806E463-3650-62F1-DF78-3A659231BF3F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOR" id="E614AFB3-5EEC-C9CC-13E1-9310363D9607">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 22:03:07 UTC</createdTime>
+<generatorID>DF330321-661B-1DB3-B0A8-4E10BC23A494</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>26AE494F-F507-4295-4BE6-BF443BC2C69A</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="94526318-3DF5-1CDB-1F16-4214E9A5D32F" name="WYNIKI PK">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:32:39 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>EDF38685-3210-FDF8-7120-99A7F9E55950</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

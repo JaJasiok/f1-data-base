@@ -25,17 +25,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SZEF" id="82B2B60C-388A-E5BD-89E4-67387C927DC3">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:33:04 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ZALOZONY" id="FAC3A5B2-C538-3806-20CC-4717C704564E">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-26 11:33:08 UTC</createdTime>
@@ -47,27 +36,27 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IMIE" id="A39378EF-5BC9-38C3-2270-DF4715235A2A">
+<Attribute name="ID_OSOBY" id="1E0E0D83-EF40-B237-F735-613F2AF26812">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 19:19:27 UTC</createdTime>
+<createdTime>2022-11-28 22:07:42 UTC</createdTime>
 <generatorID>82E4D3C2-3784-14DA-2CA3-6CCA89FE0F77</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</referedAttribute>
+<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IMIE1" id="A275D986-C819-7062-6BD1-A315C3BCC2B2">
+<Attribute name="ID_OSOBY1" id="737A17FA-40E0-32F9-09EB-0D0FAB2E6234">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 19:29:16 UTC</createdTime>
+<createdTime>2022-11-28 22:07:42 UTC</createdTime>
 <generatorID>E2F782A0-367B-7740-C917-BAD2C22CCE84</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>7CA5CDCD-5951-309A-2C71-DDD17929B7A9</referedAttribute>
+<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

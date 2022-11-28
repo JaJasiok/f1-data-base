@@ -9,6 +9,8 @@
 <sourcePk>2CCB02E9-BB78-38AB-DC60-A559BECE016A</sourcePk>
 <targetPk>F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC</targetPk>
 <identifying>false</identifying>
+<nameOnSource>sa uzywane przez</nameOnSource>
+<nameOnTarget>jezdza</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -49,5 +49,31 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DATA_kWALIFIKACJI" id="934AFE98-0961-A4E0-299F-BB7C8BE718EA">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 21:32:29 UTC</createdTime>
+<generatorID>01C220AC-FAD4-23D2-30EA-8D764D09C5CF</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>7A7887C3-08B9-414B-79EC-306A94118544</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CF53840-AF80-9B9B-C6A1-803F7942EF92" name="WYNIKI_KWALIFIKACJI PK">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-28 21:07:36 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>934AFE98-0961-A4E0-299F-BB7C8BE718EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

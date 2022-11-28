@@ -8,6 +8,8 @@
 </engineerTo>
 <targetPk>2B3A23DC-7DAE-0A32-1F12-5B5B5BC30314</targetPk>
 <identifying>false</identifying>
+<nameOnSource>jest posiadany przez</nameOnSource>
+<nameOnTarget>dysponuja</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

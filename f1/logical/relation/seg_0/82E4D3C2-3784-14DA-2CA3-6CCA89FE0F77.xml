@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>sa czlonkami</nameOnSource>
+<nameOnTarget>zatrudniaja</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
