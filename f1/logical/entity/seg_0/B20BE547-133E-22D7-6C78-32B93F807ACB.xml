@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72E941D6-895D-8B5C-B368-69CF396A5FB0" name="ZESPOLY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B20BE547-133E-22D7-6C78-32B93F807ACB" name="Kierowca">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:32:51 UTC</createdTime>
+<createdTime>2022-11-30 14:18:27 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ZESPOL" id="C23AA93C-992F-761A-3749-D994DCFB3693">
+<Attribute name="IDKierowcy" id="4E323847-8183-95C1-FFF3-269E3109DEBC">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:32:59 UTC</createdTime>
+<createdTime>2022-11-30 14:18:57 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ZALOZONY" id="FAC3A5B2-C538-3806-20CC-4717C704564E">
+<Attribute name="Imie" id="6ED6A848-E32E-69E2-7788-B024AB8BB1E5">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:33:08 UTC</createdTime>
+<createdTime>2022-11-30 14:19:08 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -36,42 +36,62 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_OSOBY" id="1E0E0D83-EF40-B237-F735-613F2AF26812">
+<Attribute name="Nazwisko" id="7DD843AB-0EC4-3B52-0B11-3B446C5FC9AB">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:42 UTC</createdTime>
-<generatorID>82E4D3C2-3784-14DA-2CA3-6CCA89FE0F77</generatorID>
+<createdTime>2022-11-30 14:19:15 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_OSOBY1" id="737A17FA-40E0-32F9-09EB-0D0FAB2E6234">
+<Attribute name="Numer" id="D72C2565-C27B-DC6D-D6A9-9D83E7D92674">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:42 UTC</createdTime>
-<generatorID>E2F782A0-367B-7740-C917-BAD2C22CCE84</generatorID>
+<createdTime>2022-11-30 14:19:20 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_urodzenia" id="563DE573-43CB-73C4-F1A1-374416F5954F">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 14:19:36 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Narodowosc" id="B48DC4A5-5E6D-2AAC-695B-B9F1D4A58FA5">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 14:19:46 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2B3A23DC-7DAE-0A32-1F12-5B5B5BC30314" name="DRUZYNY PK">
+<identifier id="4579E568-3D40-2653-B51E-2B579722A3D8" name="Kierowca PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:33:42 UTC</createdTime>
+<createdTime>2022-11-30 14:19:04 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C23AA93C-992F-761A-3749-D994DCFB3693</attributeRef>
+<attributeRef>4E323847-8183-95C1-FFF3-269E3109DEBC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

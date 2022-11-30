@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="ABECC650-276E-68F8-732A-D0643FFD338B">
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_5" directorySegmentName="seg_0" id="CEEAEAFD-A2CB-4F79-F129-9D12E81AEB64">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 19:19:39 UTC</createdTime>
+<createdTime>2022-11-30 14:59:27 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -11,8 +11,8 @@
 <nameOnTarget>Sub Type</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceEntity>12D95DFE-963D-C70D-BA9F-967499AE4D9E</sourceEntity>
-<targetEntity>DA75BA70-9E3A-9E1C-827B-6F2647382125</targetEntity>
+<sourceEntity>AA9C6EAA-325F-A5F1-2B58-D2F2DFB08334</sourceEntity>
+<targetEntity>9D9068A1-12C3-3D6B-C108-1AC03AF6A07A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
-</Relation>
+</InheritanceRelation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C94F222-FE77-B700-8188-EA271607FC95" name="KWALIFIKACJE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0586F4DC-FC8A-25E9-94E4-30A6BE0301DD" name="Sponsorzy">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:31:31 UTC</createdTime>
+<createdTime>2022-11-30 14:51:50 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,19 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="DATA_kWALIFIKACJI" id="7A7887C3-08B9-414B-79EC-306A94118544">
+<Attribute name="IDSponsorzy" id="3F298685-392E-F8AF-B868-134F4B5B6AD0">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:27:24 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="GODZINA_ROZPOCZECIA_Q1" id="74D091B3-DAA9-6433-B658-21DA2AEE3795">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:27:31 UTC</createdTime>
+<createdTime>2022-11-30 14:52:19 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -36,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GODZINA_ROZPOCZECIA_Q2" id="8E158AF0-08ED-894D-E0B0-3113D32CE51B">
+<Attribute name="Nazwa" id="16BF7448-3691-0FF3-DA9B-9AFDBB17C326">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:28:03 UTC</createdTime>
+<createdTime>2022-11-30 14:52:01 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,9 +37,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GODZINA_ROZPOCZECIA_Q3" id="2EA58F64-F556-10CD-770D-4CEA1BD877D8">
+<Attribute name="Inwestycja" id="D047B5BE-13E6-1C71-05D1-79A70BD11019">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:28:03 UTC</createdTime>
+<createdTime>2022-11-30 14:54:39 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -58,30 +48,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_OSOBY" id="83A65FDC-EC67-A115-D91E-93D0569130CE">
+<Attribute name="IDZespolu" id="C912BFD6-066A-3EC3-06BF-91D4024E9D6C">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:42 UTC</createdTime>
-<generatorID>6C467635-8BEE-88BE-8DD6-5C9B77075D3D</generatorID>
+<createdTime>2022-11-30 15:16:35 UTC</createdTime>
+<generatorID>DB4F4F0B-22F8-9C96-AB2B-290556F1C004</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
+<referedAttribute>D78B9315-1585-B356-09C1-908E628F5195</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E418BD32-9C89-A7AC-D7DC-C0C6A71784B3" name="KWALIFIKACJE PK">
+<identifier id="0C6C5205-ED5D-926A-D7FB-B35F6F1FA60A" name="Sponsorzy PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:06:27 UTC</createdTime>
+<createdTime>2022-11-30 15:17:11 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7A7887C3-08B9-414B-79EC-306A94118544</attributeRef>
+<attributeRef>C912BFD6-066A-3EC3-06BF-91D4024E9D6C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

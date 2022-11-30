@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CFD6F75-C728-D440-884A-EBEE66782144" name="TORY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28C2F1E5-D435-70D7-6339-CBB0D1721BD1" name="Tor">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:41:37 UTC</createdTime>
+<createdTime>2022-11-30 14:14:58 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TOR" id="6CD875DF-9917-0582-0807-9EDF59DFD8E1">
+<Attribute name="IDToru" id="8BC4F5AB-2178-AAEF-CB92-4F70C806DBC2">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:41:44 UTC</createdTime>
+<createdTime>2022-11-30 14:15:11 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -25,20 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DLUGOSC" id="4148262C-16CA-A5F5-7314-C5CCE8C02644">
+<Attribute name="Nazwa" id="DC93F7DE-646F-34A1-C8CA-A4FF1C8D0C8E">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:41:46 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="OTWARTY" id="AEEDF24F-7FA7-E5E1-5942-7BFAFF26517C">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:41:50 UTC</createdTime>
+<createdTime>2022-11-30 14:15:38 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,9 +36,31 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOKALIZACJA" id="E340F129-F189-02D2-E3F8-5032308335DB">
+<Attribute name="Miasto" id="91C75935-4281-EB38-52BE-577CD8584EE8">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:41:55 UTC</createdTime>
+<createdTime>2022-11-30 14:16:15 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Panstwo" id="8F22F573-C8E5-F6C8-0D32-12AB8557E093">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 14:16:48 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dlugosc" id="0D4BB7FA-59E7-92B7-917D-582CDB1A4D8B">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 14:17:31 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -60,16 +71,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F671746F-8D9A-DEF2-226C-12CE91618376" name="TORY PK">
+<identifier id="FFBB6066-CE01-E026-3C2C-9FF3958A4E30" name="Tor PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:42:15 UTC</createdTime>
+<createdTime>2022-11-30 14:15:35 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6CD875DF-9917-0582-0807-9EDF59DFD8E1</attributeRef>
+<attributeRef>8BC4F5AB-2178-AAEF-CB92-4F70C806DBC2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

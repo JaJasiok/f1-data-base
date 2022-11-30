@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8EE79CA-5EB0-4579-E0B1-51C2AEEDE9A9" name="WYSCIGI">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="055C2D74-785C-B875-DE17-79031871187D" name="Sprint">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 16:58:00 UTC</createdTime>
+<createdTime>2022-11-30 15:00:22 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,19 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="DATA" id="1806E463-3650-62F1-DF78-3A659231BF3F">
+<Attribute name="IDSprintu" id="F6DBE34C-B776-8906-F4D4-0BF36DABC0AB">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 16:59:39 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SPRINT" id="8F321CCD-AB0A-B48F-2227-C238A7E8BD54">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-27 16:59:45 UTC</createdTime>
+<createdTime>2022-11-30 15:08:32 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -36,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="START" id="0116EF85-C348-C732-7C9A-33722983823A">
+<Attribute name="Pozycja" id="234E018C-491B-4E22-A6EF-0C8DB8BE80EC">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:00:59 UTC</createdTime>
+<createdTime>2022-11-30 15:09:25 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,9 +37,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OKRAZENIA" id="7E579235-EB61-5CE5-7CB4-7EAC34C34EDA">
+<Attribute name="Punkty" id="A08E81B6-F191-DE93-BB9C-A861D74A8CF6">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:00:45 UTC</createdTime>
+<createdTime>2022-11-30 15:08:36 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -58,31 +48,43 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TOR" id="26AE494F-F507-4295-4BE6-BF443BC2C69A">
+<Attribute name="IDWyscigu" id="AAA07D82-6F97-7751-D089-4BD6D329529F">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 18:34:09 UTC</createdTime>
-<generatorID>3AD64EA5-9E67-A9BD-E468-92A7B0867E4B</generatorID>
+<createdTime>2022-11-30 15:49:51 UTC</createdTime>
+<generatorID>18123065-DCD1-AC28-ADB1-F798A4D25B4F</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>6CD875DF-9917-0582-0807-9EDF59DFD8E1</referedAttribute>
+<referedAttribute>01019CCF-464D-0199-72C8-2460C2957892</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDToru" id="83E6C574-80D8-1AB0-1D82-3AAF182BFFAF">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:49:51 UTC</createdTime>
+<generatorID>18123065-DCD1-AC28-ADB1-F798A4D25B4F</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8A8268D8-91F8-426F-87B9-D2FD4792B139" name="WYSCIGI PK">
+<identifier id="10269DD2-1DF6-5A5B-AF32-7955F25C35C4" name="Sprint PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 16:59:44 UTC</createdTime>
+<createdTime>2022-11-30 15:50:37 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1806E463-3650-62F1-DF78-3A659231BF3F</attributeRef>
-<attributeRef>26AE494F-F507-4295-4BE6-BF443BC2C69A</attributeRef>
+<attributeRef>AAA07D82-6F97-7751-D089-4BD6D329529F</attributeRef>
+<attributeRef>83E6C574-80D8-1AB0-1D82-3AAF182BFFAF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

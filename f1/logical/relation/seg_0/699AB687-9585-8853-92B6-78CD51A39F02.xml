@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_40" directorySegmentName="seg_0" id="699AB687-9585-8853-92B6-78CD51A39F02">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:56:34 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<sourcePk>2885F9A8-B0B0-21FF-75A8-1291A67FEEE8</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>skutkuja w</nameOnSource>
+<nameOnTarget>sa osiagane podczas</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76CE1453-34A1-11BC-433D-1389D05083D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA9C6EAA-325F-A5F1-2B58-D2F2DFB08334</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

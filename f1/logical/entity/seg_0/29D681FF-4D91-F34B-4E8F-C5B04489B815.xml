@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC9530D0-515E-C792-3D4E-081957D7C4F9" name="WYNIKI">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29D681FF-4D91-F34B-4E8F-C5B04489B815" name="Ranking_kierowcow">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:28:27 UTC</createdTime>
+<createdTime>2022-11-30 14:57:18 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,41 +15,49 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="POZYCJA" id="EDF38685-3210-FDF8-7120-99A7F9E55950">
+<Attribute name="IDRankinguKierowcy" id="9AC78929-7058-1B64-3000-C3A027AA8A0E">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:52:08 UTC</createdTime>
+<createdTime>2022-11-30 15:05:38 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_OSOBY" id="63FC056B-AD05-0A88-BD23-4A9B2009E34D">
+<Attribute name="Pozycja" id="CB78A98F-C3F7-B98B-452B-9AF420BE3842">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:42 UTC</createdTime>
-<generatorID>30CE25C2-DF6D-22CB-3E5D-446ABD8FFD24</generatorID>
+<createdTime>2022-11-30 15:05:51 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Punkty" id="F5A6FA53-F6F5-0F93-13D6-CA63DC128D69">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:05:56 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zwyciestwa" id="BDE047D5-D072-5E41-EC72-3870CEB608EF">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:06:05 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="94526318-3DF5-1CDB-1F16-4214E9A5D32F" name="WYNIKI PK">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:32:39 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>EDF38685-3210-FDF8-7120-99A7F9E55950</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

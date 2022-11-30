@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF89338C-0B0E-F9B9-55D2-A7372F3F50F2" name="BOLIDY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76CE1453-34A1-11BC-433D-1389D05083D5" name="Wyscig">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:20:01 UTC</createdTime>
+<createdTime>2022-11-30 14:25:42 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="MODEL" id="56274232-3EEA-1015-0C27-C0309BE04600">
+<Attribute name="IDWyscigu" id="01019CCF-464D-0199-72C8-2460C2957892">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:20:09 UTC</createdTime>
+<createdTime>2022-11-30 14:25:49 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="WAGA" id="31CAA265-0988-4128-0034-E47033967D27">
+<Attribute name="Runda" id="3EB03811-44F2-6279-64A5-29F1DB28EA98">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:20:23 UTC</createdTime>
+<createdTime>2022-11-30 14:25:57 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -36,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DLUGOSC" id="ED56BDC8-1B0B-EBF2-0B35-D11F256D2B49">
+<Attribute name="Data" id="302B3018-C178-D258-7D68-7CE21446A5E8">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:25:29 UTC</createdTime>
+<createdTime>2022-11-30 14:26:11 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -47,64 +47,43 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SZEROKOSC" id="A474842A-1D58-FF71-8437-EF05F9A42F83">
+<Attribute name="Rok" id="ABEF1E32-00F2-F305-F07D-B06F65618F03">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:25:34 UTC</createdTime>
+<createdTime>2022-11-30 15:34:07 UTC</createdTime>
+<generatorID>E2D53C27-8EAD-0F91-1BBC-CD04F7740E63</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>23421AB7-4014-C6FE-6BE2-0C61ACFEA5D7</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KOSZT" id="8247E283-CF59-8DAE-1052-5C5D353ECEDF">
+<Attribute name="IDToru" id="A37A4DA1-DEDB-69F9-D9D2-488E513E808C">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:25:39 UTC</createdTime>
+<createdTime>2022-11-30 15:37:57 UTC</createdTime>
+<generatorID>69478A86-760E-1DBF-0F06-711CEA107446</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PRODUCENT" id="CE3EF5BC-42CA-95F1-8256-15810D24BBF6">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-28 21:31:48 UTC</createdTime>
-<generatorID>21904E7D-FE8C-A9EB-2B16-7A9071E4C814</generatorID>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<referedAttribute>0E0C4565-865C-91B3-0408-50D80463274A</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_OSOBY" id="B0A82467-0317-27DF-65C0-ECA9BCC24D4E">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:42 UTC</createdTime>
-<generatorID>11BF5F97-42BB-7519-4DA2-A348112B7D12</generatorID>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<referedAttribute>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</referedAttribute>
+<referedAttribute>8BC4F5AB-2178-AAEF-CB92-4F70C806DBC2</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2CCB02E9-BB78-38AB-DC60-A559BECE016A" name="BOLIDY PK">
+<identifier id="2885F9A8-B0B0-21FF-75A8-1291A67FEEE8" name="Wyscig PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-27 17:20:20 UTC</createdTime>
+<createdTime>2022-11-30 14:27:00 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>56274232-3EEA-1015-0C27-C0309BE04600</attributeRef>
+<attributeRef>01019CCF-464D-0199-72C8-2460C2957892</attributeRef>
+<attributeRef>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

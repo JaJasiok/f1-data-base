@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_37" directorySegmentName="seg_0" id="C0BA3A7D-3019-6DFB-AF59-8BABBBEA7127">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:53:31 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>osiaga</nameOnSource>
+<nameOnTarget>jest osiagany przez</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A8639E9-ECF8-97B9-51CD-DB1B8C15525E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5088F8BA-2899-9D8F-2B74-FDBDD0E6880B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

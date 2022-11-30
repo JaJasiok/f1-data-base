@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_34" directorySegmentName="seg_0" id="D45AD44C-FC39-6B4E-8497-438E8587D661">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:46:48 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<sourcePk>2885F9A8-B0B0-21FF-75A8-1291A67FEEE8</sourcePk>
+<dominantRole>76CE1453-34A1-11BC-433D-1389D05083D5</dominantRole>
+<identifying>true</identifying>
+<nameOnSource>posiada</nameOnSource>
+<nameOnTarget>sa czescia</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76CE1453-34A1-11BC-433D-1389D05083D5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>700202BB-AD3A-1FAF-4685-C44DB590546D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

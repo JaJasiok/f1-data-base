@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12D95DFE-963D-C70D-BA9F-967499AE4D9E" name="OSOBY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="700202BB-AD3A-1FAF-4685-C44DB590546D" name="Kwalifikacje">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:13 UTC</createdTime>
+<createdTime>2022-11-30 14:36:27 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -15,29 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_OSOBY" id="8DDF7CEC-F8DD-A0A5-83C9-433591570DDC">
+<Attribute name="IDKwalifikacji" id="CC6BD258-BD6F-9D2F-34F9-762DF13DA00D">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-28 22:07:33 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IMIE" id="7CA5CDCD-5951-309A-2C71-DDD17929B7A9">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:32 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NAZWISKO" id="748FDC82-9826-E0C2-E96D-42841DACE03B">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:36 UTC</createdTime>
+<createdTime>2022-11-30 14:36:35 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -46,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NARODOWSC" id="472B3D43-1FF2-A187-F9DB-C5CBCE4211E5">
+<Attribute name="Pozycja" id="FEC8E92D-6D70-3577-4E76-29FFD578E065">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:31:43 UTC</createdTime>
+<createdTime>2022-11-30 14:36:45 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -57,29 +37,76 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="URODZONY" id="0070810D-0F2C-1B74-4A7C-FEBB85C16E95">
+<Attribute name="Czas Q1" id="6B384898-F025-6937-BF2E-CB4698DF1B8D">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-26 11:32:00 UTC</createdTime>
+<createdTime>2022-11-30 14:36:55 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Czas Q2" id="C373D40D-CDA9-04E7-1A40-7E34C4315D3E">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 14:37:05 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Czas Q3" id="ED3BA355-0985-93D8-1162-1AC157FD6541">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 14:37:10 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDWyscigu" id="BDED785C-E747-116D-BF3A-9C04CF8B678B">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:46:48 UTC</createdTime>
+<generatorID>D45AD44C-FC39-6B4E-8497-438E8587D661</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>01019CCF-464D-0199-72C8-2460C2957892</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDToru" id="A16B4D56-7F07-2FD0-5C5C-6AE3768F1888">
+<createdBy>jajas</createdBy>
+<createdTime>2022-11-30 15:46:48 UTC</createdTime>
+<generatorID>D45AD44C-FC39-6B4E-8497-438E8587D661</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F65FAD33-6AA5-15C6-2BF9-E41967CFB6CC" name="KIEROWCY PK">
+<identifier id="CA89165F-8253-DD87-9F27-6A10A730B2DD" name="Kwalifikacje PK">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-19 12:30:31 UTC</createdTime>
+<createdTime>2022-11-30 15:49:09 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8DDF7CEC-F8DD-A0A5-83C9-433591570DDC</attributeRef>
+<attributeRef>BDED785C-E747-116D-BF3A-9C04CF8B678B</attributeRef>
+<attributeRef>A16B4D56-7F07-2FD0-5C5C-6AE3768F1888</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
