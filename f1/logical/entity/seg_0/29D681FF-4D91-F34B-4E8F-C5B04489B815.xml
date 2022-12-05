@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -60,4 +59,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A3BD3B9-8C9B-BE3A-89DA-6F9174BAC54C" name="Ranking_kierowcow PK">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-05 18:12:56 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AC78929-7058-1B64-3000-C3A027AA8A0E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

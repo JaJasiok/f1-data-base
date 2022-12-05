@@ -27,6 +27,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IDRankinguKierowcy" id="5D1CDB79-73A7-8A8F-37FB-52BEBA3C1310">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-05 18:12:58 UTC</createdTime>
+<generatorID>69A11E92-64EE-EE53-638B-0471C3B9C532</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>9AC78929-7058-1B64-3000-C3A027AA8A0E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5839AFF0-87C6-02D3-1A5D-421CC7C1E4E1" name="Wyniki_kierowcow PK">

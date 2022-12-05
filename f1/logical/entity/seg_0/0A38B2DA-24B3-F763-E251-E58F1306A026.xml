@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -60,4 +59,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A79950B-D861-200A-38F5-468A21BFA8EE" name="Ranking_zespolow PK">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-05 18:13:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EEBBD67-9E96-207E-2981-7CD8995349E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

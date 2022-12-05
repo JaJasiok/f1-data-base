@@ -69,6 +69,42 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IDWyscigu" id="CDFE776F-5B89-CDCA-CCF5-34E53F3DEA0D">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-05 18:12:35 UTC</createdTime>
+<generatorID>C0BA3A7D-3019-6DFB-AF59-8BABBBEA7127</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>F7B32C36-F2B2-1CD2-E7DE-F4026FC9C1ED</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDToru" id="E9BB5A97-4FF2-45A5-A909-D8B0B8CF43C9">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-05 18:12:35 UTC</createdTime>
+<generatorID>C0BA3A7D-3019-6DFB-AF59-8BABBBEA7127</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>3D2F2F14-CBD2-1648-6609-B7F087BD7DEC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDWyniku" id="DAE5FE4E-2E1E-F4DE-591A-BFDF51464F68">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-05 18:12:44 UTC</createdTime>
+<generatorID>C0BA3A7D-3019-6DFB-AF59-8BABBBEA7127</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>7B507EEF-0E30-1178-8E84-48DE7A00AADB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="293BD6C1-AC65-960B-E9F7-8DEB054C4102" name="Zespol PK">

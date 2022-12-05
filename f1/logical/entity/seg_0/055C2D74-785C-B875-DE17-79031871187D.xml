@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -85,6 +84,7 @@
 <usedAttributes>
 <attributeRef>AAA07D82-6F97-7751-D089-4BD6D329529F</attributeRef>
 <attributeRef>83E6C574-80D8-1AB0-1D82-3AAF182BFFAF</attributeRef>
+<attributeRef>F6DBE34C-B776-8906-F4D4-0BF36DABC0AB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
