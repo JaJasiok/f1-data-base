@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDRankinguKierowcy" id="9AC78929-7058-1B64-3000-C3A027AA8A0E">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:05:38 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Pozycja" id="CB78A98F-C3F7-B98B-452B-9AF420BE3842">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 15:05:51 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,7 +32,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -54,7 +42,30 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok" id="527AB812-89E3-A4D9-C746-0518EC3E119E">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:48:28 UTC</createdTime>
+<generatorID>448F834F-E7BA-9857-A11E-EDF831482958</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>23421AB7-4014-C6FE-6BE2-0C61ACFEA5D7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pozycja1" id="2E8E1C4E-DD25-10B9-BDBA-0E19D1D5E3FB">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:48:28 UTC</createdTime>
+<generatorID>448F834F-E7BA-9857-A11E-EDF831482958</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>D3528D75-61BE-B286-AA8D-EC190199E541</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -69,7 +80,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9AC78929-7058-1B64-3000-C3A027AA8A0E</attributeRef>
+<attributeRef>CB78A98F-C3F7-B98B-452B-9AF420BE3842</attributeRef>
+<attributeRef>527AB812-89E3-A4D9-C746-0518EC3E119E</attributeRef>
+<attributeRef>2E8E1C4E-DD25-10B9-BDBA-0E19D1D5E3FB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

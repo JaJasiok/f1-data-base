@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDZespolu" id="D78B9315-1585-B356-09C1-908E628F5195">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:22:03 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Nazwa" id="9729A2F4-F84C-D656-5BEA-EFDD3F8DF407">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 14:22:10 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,7 +32,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -54,7 +42,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -65,7 +52,32 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pozycja" id="2729B592-E53B-7A1B-4F6A-D45AA6EFE581">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:16:31 UTC</createdTime>
+<generatorID>AAEBE886-9432-E61D-08EE-24C80E45E941</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<referedAttribute>A1FB17BD-0D02-3F3D-D9CB-C8568C28E50B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok" id="C0BBE84C-3923-102A-CDD1-1F54D783426F">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:48:15 UTC</createdTime>
+<generatorID>AAEBE886-9432-E61D-08EE-24C80E45E941</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F6C74EF3-0B98-93C5-D6FA-A631FAF3DF18</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -80,7 +92,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D78B9315-1585-B356-09C1-908E628F5195</attributeRef>
+<attributeRef>9729A2F4-F84C-D656-5BEA-EFDD3F8DF407</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

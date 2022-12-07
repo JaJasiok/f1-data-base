@@ -15,17 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDSponsorzy" id="3F298685-392E-F8AF-B868-134F4B5B6AD0">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:52:19 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Nazwa" id="16BF7448-3691-0FF3-DA9B-9AFDBB17C326">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 14:52:01 UTC</createdTime>
@@ -33,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -44,19 +32,18 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDZespolu" id="C912BFD6-066A-3EC3-06BF-91D4024E9D6C">
+<Attribute name="Nazwa1" id="7BF97396-661E-7574-0B84-6E8F9BA9B7DD">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:16:35 UTC</createdTime>
+<createdTime>2022-12-07 15:01:52 UTC</createdTime>
 <generatorID>DB4F4F0B-22F8-9C96-AB2B-290556F1C004</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>D78B9315-1585-B356-09C1-908E628F5195</referedAttribute>
+<referedAttribute>9729A2F4-F84C-D656-5BEA-EFDD3F8DF407</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -71,7 +58,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C912BFD6-066A-3EC3-06BF-91D4024E9D6C</attributeRef>
+<attributeRef>7BF97396-661E-7574-0B84-6E8F9BA9B7DD</attributeRef>
+<attributeRef>16BF7448-3691-0FF3-DA9B-9AFDBB17C326</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

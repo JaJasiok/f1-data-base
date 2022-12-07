@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDKwalifikacji" id="CC6BD258-BD6F-9D2F-34F9-762DF13DA00D">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:36:35 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Pozycja" id="FEC8E92D-6D70-3577-4E76-29FFD578E065">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 14:36:45 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,7 +32,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -54,7 +42,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -65,31 +52,54 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDWyscigu" id="BDED785C-E747-116D-BF3A-9C04CF8B678B">
+<Attribute name="Nazwa" id="EA3BF7D9-635F-BF47-6E1E-53A6FDCA68BD">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:46:48 UTC</createdTime>
+<createdTime>2022-12-07 15:02:23 UTC</createdTime>
 <generatorID>D45AD44C-FC39-6B4E-8497-438E8587D661</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>01019CCF-464D-0199-72C8-2460C2957892</referedAttribute>
+<referedAttribute>272A18B2-E2EA-46A8-049E-77F38FD4B624</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDToru" id="A16B4D56-7F07-2FD0-5C5C-6AE3768F1888">
+<Attribute name="Data" id="2BBFB2D9-B583-DAE6-35C0-24F13AA40FA9">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:46:48 UTC</createdTime>
+<createdTime>2022-12-07 15:02:54 UTC</createdTime>
 <generatorID>D45AD44C-FC39-6B4E-8497-438E8587D661</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</referedAttribute>
+<referedAttribute>302B3018-C178-D258-7D68-7CE21446A5E8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="9472B1CA-0701-34EF-DCDA-E173FF3852C9">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:11:01 UTC</createdTime>
+<generatorID>1FC0A0CA-D7BD-1A0A-3853-8CC3C48F7499</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>6ED6A848-E32E-69E2-7788-B024AB8BB1E5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="637EA797-CC16-147E-B7B5-AAD8B56B47E6">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:11:01 UTC</createdTime>
+<generatorID>1FC0A0CA-D7BD-1A0A-3853-8CC3C48F7499</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>7DD843AB-0EC4-3B52-0B11-3B446C5FC9AB</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -104,9 +114,11 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BDED785C-E747-116D-BF3A-9C04CF8B678B</attributeRef>
-<attributeRef>A16B4D56-7F07-2FD0-5C5C-6AE3768F1888</attributeRef>
-<attributeRef>CC6BD258-BD6F-9D2F-34F9-762DF13DA00D</attributeRef>
+<attributeRef>EA3BF7D9-635F-BF47-6E1E-53A6FDCA68BD</attributeRef>
+<attributeRef>2BBFB2D9-B583-DAE6-35C0-24F13AA40FA9</attributeRef>
+<attributeRef>FEC8E92D-6D70-3577-4E76-29FFD578E065</attributeRef>
+<attributeRef>9472B1CA-0701-34EF-DCDA-E173FF3852C9</attributeRef>
+<attributeRef>637EA797-CC16-147E-B7B5-AAD8B56B47E6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

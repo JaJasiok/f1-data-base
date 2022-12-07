@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDSprintu" id="F6DBE34C-B776-8906-F4D4-0BF36DABC0AB">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:08:32 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Pozycja" id="234E018C-491B-4E22-A6EF-0C8DB8BE80EC">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 15:09:25 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,31 +32,54 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDWyscigu" id="AAA07D82-6F97-7751-D089-4BD6D329529F">
+<Attribute name="Nazwa" id="242CB979-6630-C98E-ED8D-696F89370DFD">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:49:51 UTC</createdTime>
+<createdTime>2022-12-07 15:02:23 UTC</createdTime>
 <generatorID>18123065-DCD1-AC28-ADB1-F798A4D25B4F</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>01019CCF-464D-0199-72C8-2460C2957892</referedAttribute>
+<referedAttribute>272A18B2-E2EA-46A8-049E-77F38FD4B624</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDToru" id="83E6C574-80D8-1AB0-1D82-3AAF182BFFAF">
+<Attribute name="Data" id="3CC4F578-E133-68BB-1282-005F7E1561BF">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:49:51 UTC</createdTime>
+<createdTime>2022-12-07 15:02:54 UTC</createdTime>
 <generatorID>18123065-DCD1-AC28-ADB1-F798A4D25B4F</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</referedAttribute>
+<referedAttribute>302B3018-C178-D258-7D68-7CE21446A5E8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="B2C71203-F6AA-CF85-BB7F-28F2BAB5B909">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:12:06 UTC</createdTime>
+<generatorID>5B70D908-62F4-A8A8-B830-8016BD7E7A0C</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>6ED6A848-E32E-69E2-7788-B024AB8BB1E5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="494FC992-0430-22CA-A638-94CB5A67D1EF">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:12:06 UTC</createdTime>
+<generatorID>5B70D908-62F4-A8A8-B830-8016BD7E7A0C</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>7DD843AB-0EC4-3B52-0B11-3B446C5FC9AB</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -82,9 +94,11 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AAA07D82-6F97-7751-D089-4BD6D329529F</attributeRef>
-<attributeRef>83E6C574-80D8-1AB0-1D82-3AAF182BFFAF</attributeRef>
-<attributeRef>F6DBE34C-B776-8906-F4D4-0BF36DABC0AB</attributeRef>
+<attributeRef>242CB979-6630-C98E-ED8D-696F89370DFD</attributeRef>
+<attributeRef>3CC4F578-E133-68BB-1282-005F7E1561BF</attributeRef>
+<attributeRef>234E018C-491B-4E22-A6EF-0C8DB8BE80EC</attributeRef>
+<attributeRef>B2C71203-F6AA-CF85-BB7F-28F2BAB5B909</attributeRef>
+<attributeRef>494FC992-0430-22CA-A638-94CB5A67D1EF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

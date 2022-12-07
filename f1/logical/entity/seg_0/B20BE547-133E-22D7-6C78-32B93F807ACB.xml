@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDKierowcy" id="4E323847-8183-95C1-FFF3-269E3109DEBC">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:18:57 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Imie" id="6ED6A848-E32E-69E2-7788-B024AB8BB1E5">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 14:19:08 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,7 +32,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -54,7 +42,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -65,7 +52,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -76,7 +62,58 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="AF1C55BE-0743-65C6-3982-F942A943F859">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:06:47 UTC</createdTime>
+<generatorID>AE1D0B67-81EA-A1D7-4D5F-1D11B57D5DD8</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<referedAttribute>9729A2F4-F84C-D656-5BEA-EFDD3F8DF407</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pozycja" id="FF698609-9F97-B274-1C62-761199EAE2D9">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:14:58 UTC</createdTime>
+<generatorID>9B92DE3F-AAD1-A779-EF73-F7153D8D13BC</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CB78A98F-C3F7-B98B-452B-9AF420BE3842</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok" id="4DDA70A5-6BE6-F333-2C02-7863040E3F84">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:48:28 UTC</createdTime>
+<generatorID>9B92DE3F-AAD1-A779-EF73-F7153D8D13BC</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>527AB812-89E3-A4D9-C746-0518EC3E119E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pozycja1" id="AB91E95B-6802-41B0-B498-F9BE6E331852">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:48:28 UTC</createdTime>
+<generatorID>9B92DE3F-AAD1-A779-EF73-F7153D8D13BC</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2E8E1C4E-DD25-10B9-BDBA-0E19D1D5E3FB</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -91,7 +128,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4E323847-8183-95C1-FFF3-269E3109DEBC</attributeRef>
+<attributeRef>6ED6A848-E32E-69E2-7788-B024AB8BB1E5</attributeRef>
+<attributeRef>7DD843AB-0EC4-3B52-0B11-3B446C5FC9AB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

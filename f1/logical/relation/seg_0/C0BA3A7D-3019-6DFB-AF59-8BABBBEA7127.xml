@@ -6,14 +6,15 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<identifying>false</identifying>
+<targetPk>293BD6C1-AC65-960B-E9F7-8DEB054C4102</targetPk>
+<identifying>true</identifying>
 <nameOnSource>osiaga</nameOnSource>
 <nameOnTarget>jest osiagany przez</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>0A8639E9-ECF8-97B9-51CD-DB1B8C15525E</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>5088F8BA-2899-9D8F-2B74-FDBDD0E6880B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

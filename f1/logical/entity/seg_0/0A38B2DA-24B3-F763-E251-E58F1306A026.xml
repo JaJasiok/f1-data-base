@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDRankinguZespolow" id="8EEBBD67-9E96-207E-2981-7CD8995349E0">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:07:22 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Pozycja" id="A1FB17BD-0D02-3F3D-D9CB-C8568C28E50B">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 15:07:30 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,7 +32,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -54,7 +42,18 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok" id="F6C74EF3-0B98-93C5-D6FA-A631FAF3DF18">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:44:52 UTC</createdTime>
+<generatorID>3893E0BD-2A7F-5CF1-38FD-2B4B6B7D256E</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>23421AB7-4014-C6FE-6BE2-0C61ACFEA5D7</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -69,7 +68,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8EEBBD67-9E96-207E-2981-7CD8995349E0</attributeRef>
+<attributeRef>A1FB17BD-0D02-3F3D-D9CB-C8568C28E50B</attributeRef>
+<attributeRef>F6C74EF3-0B98-93C5-D6FA-A631FAF3DF18</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

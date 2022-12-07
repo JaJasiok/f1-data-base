@@ -7,6 +7,7 @@
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <sourcePk>4579E568-3D40-2653-B51E-2B579722A3D8</sourcePk>
+<targetPk>293BD6C1-AC65-960B-E9F7-8DEB054C4102</targetPk>
 <identifying>false</identifying>
 <nameOnSource>nalezy do </nameOnSource>
 <nameOnTarget>zatrudnia</nameOnTarget>
@@ -14,7 +15,7 @@
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>B20BE547-133E-22D7-6C78-32B93F807ACB</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>5088F8BA-2899-9D8F-2B74-FDBDD0E6880B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

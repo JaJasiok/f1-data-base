@@ -15,16 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDWyniku" id="7B507EEF-0E30-1178-8E84-48DE7A00AADB">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:44:21 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Pozycja" id="6B824E52-4077-2DB5-CE22-9B119AAC6031">
 <createdBy>jajas</createdBy>
 <createdTime>2022-11-30 14:44:29 UTC</createdTime>
@@ -32,7 +22,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -43,31 +32,30 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDWyscigu" id="F7B32C36-F2B2-1CD2-E7DE-F4026FC9C1ED">
+<Attribute name="Nazwa" id="11724B5D-029C-D8AB-0B34-15950D2C3DA7">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:56:34 UTC</createdTime>
+<createdTime>2022-12-07 15:02:23 UTC</createdTime>
 <generatorID>699AB687-9585-8853-92B6-78CD51A39F02</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>01019CCF-464D-0199-72C8-2460C2957892</referedAttribute>
+<referedAttribute>272A18B2-E2EA-46A8-049E-77F38FD4B624</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDToru" id="3D2F2F14-CBD2-1648-6609-B7F087BD7DEC">
+<Attribute name="Data" id="8780C763-CE62-52C3-255E-4EF72CEB2361">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:56:34 UTC</createdTime>
+<createdTime>2022-12-07 15:02:54 UTC</createdTime>
 <generatorID>699AB687-9585-8853-92B6-78CD51A39F02</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</referedAttribute>
+<referedAttribute>302B3018-C178-D258-7D68-7CE21446A5E8</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -82,9 +70,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F7B32C36-F2B2-1CD2-E7DE-F4026FC9C1ED</attributeRef>
-<attributeRef>3D2F2F14-CBD2-1648-6609-B7F087BD7DEC</attributeRef>
-<attributeRef>7B507EEF-0E30-1178-8E84-48DE7A00AADB</attributeRef>
+<attributeRef>11724B5D-029C-D8AB-0B34-15950D2C3DA7</attributeRef>
+<attributeRef>8780C763-CE62-52C3-255E-4EF72CEB2361</attributeRef>
+<attributeRef>6B824E52-4077-2DB5-CE22-9B119AAC6031</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

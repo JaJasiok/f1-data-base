@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDWyscigu" id="01019CCF-464D-0199-72C8-2460C2957892">
+<Attribute name="Data" id="302B3018-C178-D258-7D68-7CE21446A5E8">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:25:49 UTC</createdTime>
+<createdTime>2022-11-30 14:26:11 UTC</createdTime>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
@@ -32,18 +32,6 @@
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Data" id="302B3018-C178-D258-7D68-7CE21446A5E8">
-<createdBy>jajas</createdBy>
-<createdTime>2022-11-30 14:26:11 UTC</createdTime>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -59,15 +47,15 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IDToru" id="A37A4DA1-DEDB-69F9-D9D2-488E513E808C">
+<Attribute name="Nazwa" id="272A18B2-E2EA-46A8-049E-77F38FD4B624">
 <createdBy>jajas</createdBy>
-<createdTime>2022-11-30 15:37:57 UTC</createdTime>
+<createdTime>2022-12-07 15:02:23 UTC</createdTime>
 <generatorID>69478A86-760E-1DBF-0F06-711CEA107446</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8BC4F5AB-2178-AAEF-CB92-4F70C806DBC2</referedAttribute>
+<referedAttribute>DC93F7DE-646F-34A1-C8CA-A4FF1C8D0C8E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -82,8 +70,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>01019CCF-464D-0199-72C8-2460C2957892</attributeRef>
-<attributeRef>A37A4DA1-DEDB-69F9-D9D2-488E513E808C</attributeRef>
+<attributeRef>272A18B2-E2EA-46A8-049E-77F38FD4B624</attributeRef>
+<attributeRef>302B3018-C178-D258-7D68-7CE21446A5E8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

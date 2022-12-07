@@ -16,17 +16,55 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IDRankinguZespolow" id="DB65B37B-20C1-EB1B-D9F2-2C28839568EC">
+<Attribute name="Pozycja" id="60B09610-8BF7-06FD-5822-57CA1BB2C695">
 <createdBy>jajas</createdBy>
-<createdTime>2022-12-05 18:13:05 UTC</createdTime>
+<createdTime>2022-12-07 15:01:24 UTC</createdTime>
 <generatorID>6918B0F5-0104-88AC-8D08-9F6E4A380FE0</generatorID>
 <ownerDesignName>f1</ownerDesignName>
 <engineerTo>
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
-<referedAttribute>8EEBBD67-9E96-207E-2981-7CD8995349E0</referedAttribute>
+<referedAttribute>A1FB17BD-0D02-3F3D-D9CB-C8568C28E50B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="FA133EEA-9826-664E-DE6D-37FB9B0E24EA">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:05:56 UTC</createdTime>
+<generatorID>C0BA3A7D-3019-6DFB-AF59-8BABBBEA7127</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>9729A2F4-F84C-D656-5BEA-EFDD3F8DF407</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rok" id="65C5B858-E68E-D5FB-D1E1-78A4905D41F3">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:48:15 UTC</createdTime>
+<generatorID>6918B0F5-0104-88AC-8D08-9F6E4A380FE0</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<referedAttribute>F6C74EF3-0B98-93C5-D6FA-A631FAF3DF18</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="474E399F-88C3-610A-57AA-186DD0B46318" name="Wyniki_zespolow PK">
+<createdBy>jajas</createdBy>
+<createdTime>2022-12-07 15:06:13 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA133EEA-9826-664E-DE6D-37FB9B0E24EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
