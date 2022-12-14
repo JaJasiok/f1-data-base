@@ -14,7 +14,7 @@
 <nameOnTarget>posiada</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>0A38B2DA-24B3-F763-E251-E58F1306A026</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>FE504856-BF5F-27E0-C76B-C0CDE8A11057</targetEntity>

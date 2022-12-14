@@ -78,45 +78,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Pozycja" id="FF698609-9F97-B274-1C62-761199EAE2D9">
-<createdBy>jajas</createdBy>
-<createdTime>2022-12-07 15:14:58 UTC</createdTime>
-<generatorID>9B92DE3F-AAD1-A779-EF73-F7153D8D13BC</generatorID>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>CB78A98F-C3F7-B98B-452B-9AF420BE3842</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Rok" id="4DDA70A5-6BE6-F333-2C02-7863040E3F84">
-<createdBy>jajas</createdBy>
-<createdTime>2022-12-07 15:48:28 UTC</createdTime>
-<generatorID>9B92DE3F-AAD1-A779-EF73-F7153D8D13BC</generatorID>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>527AB812-89E3-A4D9-C746-0518EC3E119E</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Pozycja1" id="AB91E95B-6802-41B0-B498-F9BE6E331852">
-<createdBy>jajas</createdBy>
-<createdTime>2022-12-07 15:48:28 UTC</createdTime>
-<generatorID>9B92DE3F-AAD1-A779-EF73-F7153D8D13BC</generatorID>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>2E8E1C4E-DD25-10B9-BDBA-0E19D1D5E3FB</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4579E568-3D40-2653-B51E-2B579722A3D8" name="Kierowca PK">

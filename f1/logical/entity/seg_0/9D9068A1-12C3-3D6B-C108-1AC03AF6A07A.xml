@@ -74,18 +74,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Pozycja1" id="82C4E90E-BAF9-1A9C-F1E8-E6302DED89F7">
-<createdBy>jajas</createdBy>
-<createdTime>2022-12-07 15:48:28 UTC</createdTime>
-<generatorID>69A11E92-64EE-EE53-638B-0471C3B9C532</generatorID>
-<ownerDesignName>f1</ownerDesignName>
-<engineerTo>
-<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
-</engineerTo>
-<referedAttribute>2E8E1C4E-DD25-10B9-BDBA-0E19D1D5E3FB</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5839AFF0-87C6-02D3-1A5D-421CC7C1E4E1" name="Wyniki_kierowcow PK">

@@ -7,14 +7,15 @@
 <item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
 </engineerTo>
 <sourcePk>2A79950B-D861-200A-38F5-468A21BFA8EE</sourcePk>
+<targetPk>293BD6C1-AC65-960B-E9F7-8DEB054C4102</targetPk>
 <identifying>false</identifying>
 <nameOnSource>opisuje wyniki</nameOnSource>
 <nameOnTarget>wchodza w sklad</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>0A38B2DA-24B3-F763-E251-E58F1306A026</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>5088F8BA-2899-9D8F-2B74-FDBDD0E6880B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

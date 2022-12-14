@@ -57,6 +57,19 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nazwa" id="EF8BB532-1FA7-C9FD-6B9E-C65FDAA711D4">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 13:34:59 UTC</createdTime>
+<generatorID>AAEBE886-9432-E61D-08EE-24C80E45E941</generatorID>
+<ownerDesignName>f1</ownerDesignName>
+<engineerTo>
+<item key="AC28BFD1-33A5-8D3C-F35F-ABE770F1A90A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9729A2F4-F84C-D656-5BEA-EFDD3F8DF407</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2A79950B-D861-200A-38F5-468A21BFA8EE" name="Ranking_zespolow PK">
