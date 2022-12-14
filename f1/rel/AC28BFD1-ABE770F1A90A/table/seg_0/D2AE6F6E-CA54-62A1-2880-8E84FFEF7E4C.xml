@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2AE6F6E-CA54-62A1-2880-8E84FFEF7E4C" name="Wyniki_zespolow">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:37:26 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pozycja" id="1CEEF39F-1914-1F06-0765-DF7FB4F72324">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:40:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Punkty" id="23BA56D0-1F2E-FE14-B7B0-9ADDC405473A">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:40:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyscigi_Data" id="86E3E568-C368-27F6-86B8-791E0D176D87">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:10:42 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31F28892-00B9-A7C6-F4B4-3A1B2DDB0427" referredColumn="2270EA8F-5CD4-F382-8AEC-0467D5611B0F"/>
+</associations>
+</Column>
+<Column name="Zespoly_Nazwa" id="49C6B79C-E406-C18A-0611-F550B4548BE4">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:11:46 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="519415A6-F6EA-B949-4032-3438592ABBBD" referredColumn="61C9746E-D365-D46A-7DD6-40923F165218"/>
+</associations>
+</Column>
+<Column name="Ranking_zespolow_Pozycja" id="4A36102B-F88D-6C69-7695-E62177653E1C">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:19:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAC6ED6A-14D0-4397-D79A-D9D39A394B28" referredColumn="16E76151-D94E-C7F3-B177-53DE9E145384"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D370BA5-79B6-EC17-E314-939FE9E1B6CB" name="Wyniki_zespolow_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:40:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CEEF39F-1914-1F06-0765-DF7FB4F72324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FC83054-C87F-55AE-0197-6ED0557796BB" name="Wyniki_zespolow_Wyscigi_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:10:42 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86E3E568-C368-27F6-86B8-791E0D176D87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5E53FC2-CC4B-2920-5CF3-612570ECB0DA" name="Wyniki_zespolow_Zespoly_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:11:46 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C6B79C-E406-C18A-0611-F550B4548BE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB6A3D40-0352-7218-9007-114499CD6583" name="Wyniki_zespolow_Ranking_zespolow_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:19:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A36102B-F88D-6C69-7695-E62177653E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

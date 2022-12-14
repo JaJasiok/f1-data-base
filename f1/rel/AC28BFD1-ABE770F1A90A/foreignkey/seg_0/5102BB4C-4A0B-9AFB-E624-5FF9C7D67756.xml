@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5102BB4C-4A0B-9AFB-E624-5FF9C7D67756" containerWithKeyObject="9F591A3A-B07E-585D-1B9D-A5731F49449E" localFKIndex="2BE0628C-8D42-246A-6815-9EA06925771B" name="Sponsorzy_Zespoly_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:06:22 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Zespoly</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>483F8828-8A7E-DFE3-D3C8-8F69C6651A68</referredTableID>
+<keyObject>51554743-2818-9342-5AC6-6F063B078FF4</keyObject>
+<referredKeyID>51554743-2818-9342-5AC6-6F063B078FF4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

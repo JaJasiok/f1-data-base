@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B289E528-5013-6809-8DE5-8BCE741B7AA7" containerWithKeyObject="2CA1F5EC-7E1B-E08D-6773-E3C518B69F25" localFKIndex="9CD1373B-96B1-AB05-097D-9894EC2FDD59" name="Ranking_zespolow_Zespoly_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:14:41 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Zespoly</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>483F8828-8A7E-DFE3-D3C8-8F69C6651A68</referredTableID>
+<keyObject>51554743-2818-9342-5AC6-6F063B078FF4</keyObject>
+<referredKeyID>51554743-2818-9342-5AC6-6F063B078FF4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

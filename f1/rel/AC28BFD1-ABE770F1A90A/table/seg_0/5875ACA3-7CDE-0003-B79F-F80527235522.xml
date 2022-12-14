@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5875ACA3-7CDE-0003-B79F-F80527235522" name="Sprinty">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:16:57 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pozycja" id="7365AC18-297D-1E1E-6CA3-1DE0EB53630E">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:18:01 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Punkty" id="F2A71830-E6BD-23E0-C633-7C0454723850">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:18:01 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyscigi_Data" id="66E88C5E-44FE-DB76-7FD3-87D43927A0F9">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:05:19 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA228B0A-3D59-81BF-F585-454BF9C92113" referredColumn="2270EA8F-5CD4-F382-8AEC-0467D5611B0F"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Imię" id="EFE96933-D968-A4F9-4058-17362494C87B">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:09:57 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF8F2D6F-ED0E-684E-84F9-579B5AEB5F45" referredColumn="D8D622BA-4303-9C05-3FEC-52897DF6B4DC"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Nazwisko" id="07E8FB2B-77E7-F358-3378-61A3131D72F6">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:09:57 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF8F2D6F-ED0E-684E-84F9-579B5AEB5F45" referredColumn="4AAFD2CB-7057-1CD3-C8DA-15D75732AF9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D25E5A69-C4A4-7F13-332C-801871EEDB04" name="Sprint_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:18:01 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7365AC18-297D-1E1E-6CA3-1DE0EB53630E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="694973B4-572D-6926-EC84-2F0B8424428F" name="Sprinty_Wyscigi_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:05:19 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66E88C5E-44FE-DB76-7FD3-87D43927A0F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D954A9FD-7CDA-6C7B-2EC1-9FA3B2066164" name="Sprinty_Kierowcy_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:09:57 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFE96933-D968-A4F9-4058-17362494C87B"/>
+<colUsage columnID="07E8FB2B-77E7-F358-3378-61A3131D72F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

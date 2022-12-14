@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAC6ED6A-14D0-4397-D79A-D9D39A394B28" containerWithKeyObject="D2AE6F6E-CA54-62A1-2880-8E84FFEF7E4C" localFKIndex="FB6A3D40-0352-7218-9007-114499CD6583" name="Wyniki_zespolow_Ranking_zespolow_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:19:04 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Ranking_zespolow</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2CA1F5EC-7E1B-E08D-6773-E3C518B69F25</referredTableID>
+<keyObject>4A946ACD-2D8E-CE8C-A55D-819480E4E617</keyObject>
+<referredKeyID>4A946ACD-2D8E-CE8C-A55D-819480E4E617</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pozycja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

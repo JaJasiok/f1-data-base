@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF8F2D6F-ED0E-684E-84F9-579B5AEB5F45" containerWithKeyObject="5875ACA3-7CDE-0003-B79F-F80527235522" localFKIndex="D954A9FD-7CDA-6C7B-2EC1-9FA3B2066164" name="Sprinty_Kierowcy_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:09:57 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Kierowcy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0517825-C96A-2F08-AE18-A4811C9EA3E8</referredTableID>
+<keyObject>2D4F6E00-9194-CE41-E79E-02130C8E0E2F</keyObject>
+<referredKeyID>2D4F6E00-9194-CE41-E79E-02130C8E0E2F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Imię,Nazwisko</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

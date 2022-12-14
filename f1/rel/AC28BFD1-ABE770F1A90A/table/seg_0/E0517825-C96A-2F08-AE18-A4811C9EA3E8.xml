@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0517825-C96A-2F08-AE18-A4811C9EA3E8" name="Kierowcy">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 14:55:29 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Imię" id="D8D622BA-4303-9C05-3FEC-52897DF6B4DC">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:01:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="4AAFD2CB-7057-1CD3-C8DA-15D75732AF9A">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:01:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer" id="CE8395A4-01EB-B14F-41C1-102CFD8B9D5C">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:01:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_urodzenia" id="368F550A-8244-3221-8F5F-7053A2BD3927">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:01:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Narodowosc" id="AE891076-D9BA-C689-51DF-C92BD20D9625">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:01:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespoly_Nazwa" id="B7885854-F7AA-0C75-BEEE-955E77FC1DF5">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:46:14 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9973747-A630-A7EA-F739-126F49251CA7" referredColumn="61C9746E-D365-D46A-7DD6-40923F165218"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D4F6E00-9194-CE41-E79E-02130C8E0E2F" name="Kierowcy_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:01:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8D622BA-4303-9C05-3FEC-52897DF6B4DC"/>
+<colUsage columnID="4AAFD2CB-7057-1CD3-C8DA-15D75732AF9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D24A18D-63A1-9FCA-5512-AF15F1F43B4E" name="Kierowcy_Zespoly_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:46:14 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7885854-F7AA-0C75-BEEE-955E77FC1DF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40FE3727-CF51-7EEA-2308-08E55430EBCF" name="Sezony">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:06:34 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rok" id="100F6E9D-6AC5-C747-581B-04B7C3C4B338">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:06:55 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CBD2310-2703-875A-CC5E-74EA27851D24" name="Sezony_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:06:55 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="100F6E9D-6AC5-C747-581B-04B7C3C4B338"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

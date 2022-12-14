@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52A7E5B4-E73E-460E-27C4-9A4162DB9CF1" name="Wyniki_kierowców">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:32:32 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pozycja" id="6470C415-F6D7-3B8D-8F1E-11141F6C32A7">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:33:25 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Punkty" id="13D78D57-EBCD-9138-75E6-9E72D6F8EC34">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:33:25 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Najszybsze_okrazenie" id="40AA69AB-0322-1783-B4FD-C94FA9C65B4F">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:35:35 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyscigi_Data" id="52CD7D48-3F7B-06EF-6A51-82E79858DB86">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:11:09 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="835BFD18-CA01-9D5E-FCB9-D9B4B4AEF180" referredColumn="2270EA8F-5CD4-F382-8AEC-0467D5611B0F"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Imię" id="7E065498-679B-F16A-CD3D-E77BC243F4DC">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:12:23 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D12F548C-4449-8447-C742-3C2CBFC0451C" referredColumn="D8D622BA-4303-9C05-3FEC-52897DF6B4DC"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Nazwisko" id="591049D5-69E2-5574-B1BB-77A97DAB6556">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:12:23 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D12F548C-4449-8447-C742-3C2CBFC0451C" referredColumn="4AAFD2CB-7057-1CD3-C8DA-15D75732AF9A"/>
+</associations>
+</Column>
+<Column name="Ranking_kierowcow_Pozycja" id="FE2E8829-FC5E-2932-E387-45D4EFEDF2F8">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:19:16 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59E50BB3-5854-39EC-897A-B76DC00D7C5C" referredColumn="EF91920B-2946-32A0-96E4-6F6651153236"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D877C183-DE19-7494-0E8C-18B7670D807F" name="Wyniki_kierowców_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:33:25 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6470C415-F6D7-3B8D-8F1E-11141F6C32A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A43FBB0-3068-50DE-46F7-A21B4905D18E" name="Wyniki_kierowców_Wyscigi_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:11:09 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52CD7D48-3F7B-06EF-6A51-82E79858DB86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F68E9D53-FA64-38FF-0B1F-CA97A392EA2B" name="Wyniki_kierowców_Kierowcy_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:12:23 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E065498-679B-F16A-CD3D-E77BC243F4DC"/>
+<colUsage columnID="591049D5-69E2-5574-B1BB-77A97DAB6556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A27CBE0-9BEF-5EBE-1BD0-550AD99E1CAC" name="Wyniki_kierowców_Ranking_kierowcow_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:19:16 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2E8829-FC5E-2932-E387-45D4EFEDF2F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

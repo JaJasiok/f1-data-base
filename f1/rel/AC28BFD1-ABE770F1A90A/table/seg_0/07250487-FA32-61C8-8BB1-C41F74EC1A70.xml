@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07250487-FA32-61C8-8BB1-C41F74EC1A70" name="Kwalifikacje">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:18:26 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pozycja" id="1EA08CF9-7131-FDAB-A763-FDE48395EBE7">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:31:45 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Czas_Q1" id="DCC1D46F-2E6A-78C9-69D5-6EE4891AC940">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:31:45 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Czas_Q2" id="87DED56C-C82A-B4F2-668A-AC2505254BE0">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:31:45 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Czas_Q3" id="76C55851-12EB-767F-7776-8050A385A406">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:31:45 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wyscigi_Data" id="43D6DEAC-ED8F-392D-D1B3-E707159B4222">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:05:59 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E0923B4-5EC1-BA46-F687-E5914D5644E1" referredColumn="2270EA8F-5CD4-F382-8AEC-0467D5611B0F"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Imię" id="DD381B22-885A-1221-447A-B873E5146383">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:08:26 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6260032C-50CB-F29C-E226-717B2674EE92" referredColumn="D8D622BA-4303-9C05-3FEC-52897DF6B4DC"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Nazwisko" id="523DFB37-5536-3E60-E3D2-056566D9522C">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:08:26 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6260032C-50CB-F29C-E226-717B2674EE92" referredColumn="4AAFD2CB-7057-1CD3-C8DA-15D75732AF9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C872E434-32BB-EE77-8C6A-C4E86D8692D3" name="Kwalifikacje_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:31:45 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EA08CF9-7131-FDAB-A763-FDE48395EBE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEA9C131-4418-28C0-58C1-FF14548E12A1" name="Kwalifikacje_Wyscigi_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:05:59 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43D6DEAC-ED8F-392D-D1B3-E707159B4222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5523B094-4327-C2EE-94E2-12E4343E28C4" name="Kwalifikacje_Kierowcy_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:08:26 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD381B22-885A-1221-447A-B873E5146383"/>
+<colUsage columnID="523DFB37-5536-3E60-E3D2-056566D9522C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

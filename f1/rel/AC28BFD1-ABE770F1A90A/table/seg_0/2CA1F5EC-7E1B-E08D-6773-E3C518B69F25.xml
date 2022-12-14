@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CA1F5EC-7E1B-E08D-6773-E3C518B69F25" name="Ranking_zespolow">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:41:44 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pozycja" id="16E76151-D94E-C7F3-B177-53DE9E145384">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:42:15 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Punkty" id="F4C98429-647A-A138-F911-D2DAF7F130D3">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:42:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[	]]></commentInRDBMS>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zwyciestwa" id="F21CE0C3-6D6B-1863-2A18-D93BBF1B0761">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:42:58 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespoly_Nazwa" id="20F27B96-9BDE-663F-A88D-9E61534B4ADA">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:14:41 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B289E528-5013-6809-8DE5-8BCE741B7AA7" referredColumn="61C9746E-D365-D46A-7DD6-40923F165218"/>
+</associations>
+</Column>
+<Column name="Sezony_Rok" id="A60C1207-9647-644D-239E-FE030388FBF7">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:15:48 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F3547AA-36DF-2AB0-F0BC-2D3D9485C519" referredColumn="100F6E9D-6AC5-C747-581B-04B7C3C4B338"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A946ACD-2D8E-CE8C-A55D-819480E4E617" name="Ranking_zespolow_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:42:15 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16E76151-D94E-C7F3-B177-53DE9E145384"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CD1373B-96B1-AB05-097D-9894EC2FDD59" name="Ranking_zespolow_Zespoly_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:14:41 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F27B96-9BDE-663F-A88D-9E61534B4ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45D40BBE-E3A0-4AD3-5B9B-54E36BC2ACA1" name="Ranking_zespolow_Sezony_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:15:48 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A60C1207-9647-644D-239E-FE030388FBF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

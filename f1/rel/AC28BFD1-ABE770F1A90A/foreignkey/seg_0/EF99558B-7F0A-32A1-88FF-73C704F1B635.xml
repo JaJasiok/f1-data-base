@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF99558B-7F0A-32A1-88FF-73C704F1B635" containerWithKeyObject="6C1726CA-230C-3276-81FE-759D7E4AC732" localFKIndex="8EDACA43-5C7B-2811-E337-1260B0FA4929" name="Wyscigi_Sezony_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:16:02 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Sezony</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40FE3727-CF51-7EEA-2308-08E55430EBCF</referredTableID>
+<keyObject>3CBD2310-2703-875A-CC5E-74EA27851D24</keyObject>
+<referredKeyID>3CBD2310-2703-875A-CC5E-74EA27851D24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rok</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

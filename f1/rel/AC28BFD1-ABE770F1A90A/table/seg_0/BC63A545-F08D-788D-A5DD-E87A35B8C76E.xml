@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC63A545-F08D-788D-A5DD-E87A35B8C76E" name="Tory">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:07:03 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="AC5ED481-C29B-52C0-B6B5-F6336F174622">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:09:28 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="F880B91A-91EE-9EE8-12B8-3A1F4C70B7DC">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:09:28 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Panstwo" id="851D8B8B-EE6C-E56E-AFF9-14E4715DC47C">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:09:28 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dlugosc" id="78818D28-F900-BB8D-5CD7-F0E984CE2B03">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:09:28 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6FF22D2-C39F-327C-517F-68E0DDAF443D" name="Tor_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:09:28 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC5ED481-C29B-52C0-B6B5-F6336F174622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

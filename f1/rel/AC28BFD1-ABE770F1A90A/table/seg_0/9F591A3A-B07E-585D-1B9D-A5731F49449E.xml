@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F591A3A-B07E-585D-1B9D-A5731F49449E" name="Sponsorzy">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:04:45 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nazwa" id="39D59769-1F52-AC85-84D2-5EC2DFCF0912">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:05:43 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inwestycja" id="9A95FE87-A70D-455D-EECE-6A4CF02D0668">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:05:43 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespoly_Nazwa" id="8C284343-D23D-05C0-EA81-B1DCA1A4EAEE">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:06:22 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5102BB4C-4A0B-9AFB-E624-5FF9C7D67756" referredColumn="61C9746E-D365-D46A-7DD6-40923F165218"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C9F24EA-1184-B962-1044-A4930DA46384" name="Sponsorzy_PK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:05:43 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D59769-1F52-AC85-84D2-5EC2DFCF0912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BE0628C-8D42-246A-6815-9EA06925771B" name="Sponsorzy_Zespoly_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:06:22 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C284343-D23D-05C0-EA81-B1DCA1A4EAEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

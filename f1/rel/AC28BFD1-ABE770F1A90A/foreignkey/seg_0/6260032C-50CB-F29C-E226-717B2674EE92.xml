@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6260032C-50CB-F29C-E226-717B2674EE92" containerWithKeyObject="07250487-FA32-61C8-8BB1-C41F74EC1A70" localFKIndex="5523B094-4327-C2EE-94E2-12E4343E28C4" name="Kwalifikacje_Kierowcy_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 16:08:26 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Kierowcy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0517825-C96A-2F08-AE18-A4811C9EA3E8</referredTableID>
+<keyObject>2D4F6E00-9194-CE41-E79E-02130C8E0E2F</keyObject>
+<referredKeyID>2D4F6E00-9194-CE41-E79E-02130C8E0E2F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Imię,Nazwisko</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

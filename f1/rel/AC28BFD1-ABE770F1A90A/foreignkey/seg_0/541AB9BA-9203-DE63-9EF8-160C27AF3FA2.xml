@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="541AB9BA-9203-DE63-9EF8-160C27AF3FA2" containerWithKeyObject="3E9BABAD-D34E-B7C0-7705-F9B92E3CC7C9" localFKIndex="1783A505-A09D-31D7-CCCC-D123BDD98B5F" name="Kierowcy_w_sezonach_Sezony_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:54:37 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<referredTableLongName>Sezony</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40FE3727-CF51-7EEA-2308-08E55430EBCF</referredTableID>
+<keyObject>3CBD2310-2703-875A-CC5E-74EA27851D24</keyObject>
+<referredKeyID>3CBD2310-2703-875A-CC5E-74EA27851D24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Rok</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

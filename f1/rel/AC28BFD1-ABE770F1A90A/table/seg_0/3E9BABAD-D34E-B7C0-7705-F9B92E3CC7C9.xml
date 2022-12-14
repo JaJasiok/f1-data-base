@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E9BABAD-D34E-B7C0-7705-F9B92E3CC7C9" name="Kierowcy_w_sezonach">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:53:19 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kierowcy_Imię" id="B0DAB13B-C982-E999-277F-501558DCD098">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:53:43 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="855497A1-8AF7-96BC-D5C3-9177612742BE" referredColumn="D8D622BA-4303-9C05-3FEC-52897DF6B4DC"/>
+</associations>
+</Column>
+<Column name="Kierowcy_Nazwisko" id="B5566995-2C04-F0F2-2475-95ACFB267AA1">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:53:43 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="855497A1-8AF7-96BC-D5C3-9177612742BE" referredColumn="4AAFD2CB-7057-1CD3-C8DA-15D75732AF9A"/>
+</associations>
+</Column>
+<Column name="Sezony_Rok" id="6317B2EF-77CC-34DB-8A71-32A097E50401">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:54:37 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="541AB9BA-9203-DE63-9EF8-160C27AF3FA2" referredColumn="100F6E9D-6AC5-C747-581B-04B7C3C4B338"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D418C744-0D01-9D24-3F77-982554A6AD1B" name="Kierowcy_w_sezonach_Kierowcy_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:53:43 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0DAB13B-C982-E999-277F-501558DCD098"/>
+<colUsage columnID="B5566995-2C04-F0F2-2475-95ACFB267AA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1783A505-A09D-31D7-CCCC-D123BDD98B5F" name="Kierowcy_w_sezonach_Sezony_FK">
+<createdBy>piotr</createdBy>
+<createdTime>2022-12-14 15:54:37 UTC</createdTime>
+<ownerDesignName>f1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6317B2EF-77CC-34DB-8A71-32A097E50401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
